@@ -10,3 +10,10 @@ parts:
   - file: chapters/1-basics/optical-design
   - file: chapters/1-basics/light-sources
   - file: chapters/1-basics/signal-control
+
+- caption: Fluorescence
+  chapters:
+  - file: chapters/2-fluorescence/why-care
+  - file: chapters/2-fluorescence/molecules
+  - file: chapters/2-fluorescence/proteins
+  - file: chapters/2-fluorescence/special-cases
