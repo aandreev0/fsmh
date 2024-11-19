@@ -27,3 +27,5 @@ parts:
   chapters:
   - file: chapters/4-data/types-of-data
   - file: chapters/4-data/data-storage
+  - file: chapters/4-data/image-presentation
+  - file: chapters/4-data/data-analysis
