@@ -10,6 +10,7 @@ parts:
   - file: chapters/1-basics/optical-design
   - file: chapters/1-basics/light-sources
   - file: chapters/1-basics/signal-control
+  - file: chapters/1-basics/hardware-design
 
 - caption: Fluorescence
   chapters:
