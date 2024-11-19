@@ -1,11 +1,11 @@
-# Welcome to your Jupyter Book
+# Full-Stack Microscopy Handbook
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Biology experiment and biomedical R&D requires understanding of science, hardware, and engineering.
+Full-stack microscopy provides practice review of design & implementation across whole structure of projects: from envisioning experimental setups to programming control and data analysis
 
-Check out the content pages bundled with this sample book to see more.
+Built with [the Jupyter Book](https://jupyterbook.org) and Github Pages.
+
+Assembled by [Andrey Andreev](https://aandreev.net)
 
 ```{tableofcontents}
 ```
