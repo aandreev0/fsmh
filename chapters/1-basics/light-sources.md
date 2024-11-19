@@ -1,8 +1,11 @@
-# Light-sources
+# Light sources
 
 
 
 ## Laser principles
+
+## LEDs and lamps
+
 
 ## Detection of light
 - digital nature of light detection, noise, and offsets
@@ -11,4 +14,5 @@
 
 ## Measuring power
 - average and peak power
-- photodamage
+- photo damage
+- chemical toxicity
