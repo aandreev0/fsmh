@@ -17,3 +17,13 @@ parts:
   - file: chapters/2-fluorescence/molecules
   - file: chapters/2-fluorescence/proteins
   - file: chapters/2-fluorescence/special-cases
+
+- caption: Designing experiments
+  chapters:
+  - file: chapters/3-experiment/microscopy-experiments
+  - file: chapters/3-experiment/sample-experiments
+
+- caption: Data management and analysis
+  chapters:
+  - file: chapters/4-data/types-of-data
+  - file: chapters/4-data/data-storage
