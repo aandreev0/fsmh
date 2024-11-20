@@ -1,11 +1,9 @@
-# Overview
+# What makes a microscope?
 
 
 
-## Optical design
+## Main elements
 
-- Simple lenses
-- Geometric optics
-- Aberrations
-- Real optics
-- How to make things move
+- Optics
+- Hardware
+- Connecting different devices
