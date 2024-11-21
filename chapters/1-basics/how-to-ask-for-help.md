@@ -23,6 +23,8 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 - [Zeiss campus](https://zeiss-campus.magnet.fsu.edu/index.html)
 - [Nikon MicroscopyU](https://www.microscopyu.com/)
 - [Scientifica knowledge base](https://www.scientifica.uk.com/learning-zone/)
+- [Chroma knowledge center](https://www.chroma.com/support/knowledge-center)
+- [Newport resources](https://www.newport.com/resources)
 - Personal & company blogs:
   - [LabRigger](https://labrigger.com/blog/)
   - [David Hoffman blog](https://david-hoffman.github.io/)
