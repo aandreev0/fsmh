@@ -17,7 +17,22 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 
 - [Thorlabs knowledge base](https://www.thorlabs.com/navigation.cfm?guide_id=2400)
 - [Edmund optics knowledge base](https://www.edmundoptics.com/knowledge-center/)
-- personal & company blogs
+- [Optics For Hire blog](https://www.opticsforhire.com/blog/)
+- Personal & company blogs:
+  - [LabRigger](https://labrigger.com/blog/)
+  - [David Hoffman blog](https://david-hoffman.github.io/)
+  - [Kurt's microscopy blog](https://ucsf.app.box.com/v/KurtsMicroscopyBlog) (archived as PDF)
+  - [Zipfel lab](http://www.drbio.cornell.edu/app_notes.html)
+  - [Parker lab](https://parkerlab.bio.uci.edu/microscopy_construction.htm)
+  - [Pulsar blog](https://www.thepulsar.be/archives/)
+  - [3-photon knowldge base](https://www.3photon.org/)
+  - [Nico Struuman's notes](https://valelab4.ucsf.edu/~nstuurman/)
+  - [Green Fluorescent blog](https://greenfluorescentblog.wordpress.com/)
+  - [Adaptive optics blog](https://aomicroscopy.org/)
+  - [Ulrike Boehm's blog](http://ulrikeboehm.org/blog/)
+  - [Austin Blanco's blog](https://www.austinblanco.com/blog/) (also sells Triggerscope and other devices)
+  - [Everyday scientist blog](https://blog.everydayscientist.com/)
+
 
 ## Offline resources
 

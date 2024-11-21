@@ -6,6 +6,18 @@ Involved a lot of CAD work. You can read about it more in [the *Nature Methods* 
 
 When buying hardware parts off-the-shelf, we often get access to 3D models. Assembling these in software of your choice (Autodesk, Solidworks, OpenSCAD, FreeCAD or other)
 
+In general, hardware design from parts should start after the optical design has been finished that is optical elements were picked and arrangement has been decided. Hardware design then will be used to place these elements in real space, relative to mounting points, sample holder stage, and other parts of the system.
+
+As an exercise, you can practice by assembling a point-scanning two-photon laser microscope (in non-de-scanned mode).
+
+```{image} ../../static/2p-laser-scanning-microscope.png
+:alt: sketch of point-scanning two-photon laser microscope in Fusion360
+:width: 400px
+:align: center
+```
+
+It consists of few major parts: collimated laser source of desired diameter. 
+
 ## Making custom parts
 - 3D Printing
 - CNC
