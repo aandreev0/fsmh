@@ -21,4 +21,5 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 
 ## Offline resources
 
+- [Principles of Fluorescence Spectroscopy](https://link.springer.com/book/10.1007/978-0-387-46312-4)
 - 

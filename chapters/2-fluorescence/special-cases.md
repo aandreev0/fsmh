@@ -6,4 +6,12 @@
 
 ## Molecular Sensors
 
-## Resonance energy transfer
+## Resonance energy transfer (FRET)
+
+## Fluorescence recovery after photobleaching (FRAP)
+
+## Blinking
+
+## Polarization
+
+## Anisotropy
