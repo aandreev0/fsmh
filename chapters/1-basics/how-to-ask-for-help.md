@@ -15,11 +15,11 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 
 ## Resources
 
-- thorlabs knowledge base
-- edmund optics knowledge base
+- [Thorlabs knowledge base](https://www.thorlabs.com/navigation.cfm?guide_id=2400)
+- [Edmund optics knowledge base](https://www.edmundoptics.com/knowledge-center/)
 - personal & company blogs
 
 ## Offline resources
 
 - [Principles of Fluorescence Spectroscopy](https://link.springer.com/book/10.1007/978-0-387-46312-4)
-- 
+-
