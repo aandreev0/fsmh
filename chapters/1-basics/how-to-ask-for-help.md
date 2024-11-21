@@ -18,6 +18,11 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 - [Thorlabs knowledge base](https://www.thorlabs.com/navigation.cfm?guide_id=2400)
 - [Edmund optics knowledge base](https://www.edmundoptics.com/knowledge-center/)
 - [Optics For Hire blog](https://www.opticsforhire.com/blog/)
+- [Olympus knowledge base](https://www.olympus-lifescience.com/en/microscope-resource/) also stand-alone like [Olympus confocal](http://www.olympusconfocal.com/)
+- [Leica science lab](https://www.leica-microsystems.com/science-lab/science-lab-home/)
+- [Zeiss campus](https://zeiss-campus.magnet.fsu.edu/index.html)
+- [Nikon MicroscopyU](https://www.microscopyu.com/)
+- [Scientifica knowledge base](https://www.scientifica.uk.com/learning-zone/)
 - Personal & company blogs:
   - [LabRigger](https://labrigger.com/blog/)
   - [David Hoffman blog](https://david-hoffman.github.io/)
