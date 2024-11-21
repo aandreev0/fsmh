@@ -8,8 +8,8 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 
 ## Online communities
 
-- [twitter list](https://twitter.com/i/lists/1266007529277947904)
-- [bluesky](https://bsky.app/profile/mickeykats.bsky.social/feed/aaaaxyliorir6)
+- [Twitter list](https://twitter.com/i/lists/1266007529277947904)
+- [Bluesky community](https://bsky.app/profile/mickeykats.bsky.social/feed/aaaaxyliorir6)
 - [Microlist](https://forum.microlist.org/)
 - [2P microscopy community](https://2p.ece.ucsb.edu/login)
 
