@@ -29,3 +29,11 @@ To overcome this issue, we can use CNC machining or 3D printing to generate cust
 
 
 ### Embedded systems
+
+Part of microscopy systems or the whole imaging setups can be assembled on a custom base to achieve portability and rigidity, or uniformity of the components. Such embedded systems combine custom and off-the-shelf parts, often with custom adapters and mounting hardware to make strong and reliable hardware system. One example is [Flamingo light-sheet microscope](https://huiskenlab.com/flamingo/):
+
+```{image} ../../static/flamingo.png
+:alt: flamingo microscope
+:width: 400px
+:align: center
+```
