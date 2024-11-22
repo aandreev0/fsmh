@@ -39,6 +39,7 @@ Nobody knows everything and sharing within microscopy community is part of cultu
   - [Ulrike Boehm's blog](http://ulrikeboehm.org/blog/)
   - [Austin Blanco's blog](https://www.austinblanco.com/blog/) (also sells Triggerscope and other devices)
   - [Everyday scientist blog](https://blog.everydayscientist.com/)
+  - [Kyle M. Douglass blog](https://kylemdouglass.com/2024/)
 
 
 ## Offline resources

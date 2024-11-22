@@ -21,6 +21,8 @@ Devices usually can receive and send signals using voltage levels: for example, 
 - 5V Logic: in and out
 - Interrupts
 - Digital-to-analog converters
+- Real-time data processing
 
-## Arduino as glue to talk with PC
+## Arduino as glue helping to talk with PC
+
 - Serial port communications
