@@ -6,6 +6,8 @@ It is necessary to seek additional help, assistances, or clarifications when pla
 
 Nobody knows everything and sharing within microscopy community is part of culture. However, one need to know how to efficiently seek assistance and how to make sure your colleagues will be glad answer your questions in the future.
 
+Apart from community support (online forums or blogs) you can get a lot of information from studying knowledge bases supported by companies. These resources often provide clear information, discuss limitations, and often offer particular off-the-shelf solutions. Importantly, the list below doesn't include any marketing materials.
+
 ## Online communities
 
 - [Twitter list](https://twitter.com/i/lists/1266007529277947904)
@@ -25,6 +27,7 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 - [Scientifica knowledge base](https://www.scientifica.uk.com/learning-zone/)
 - [Chroma knowledge center](https://www.chroma.com/support/knowledge-center)
 - [Newport resources](https://www.newport.com/resources)
+- [Learn @ DigiKey](https://www.digikey.com/en/maker/resources/stem-diy/learn-at-digi-key)
 - Personal & company blogs:
   - [LabRigger](https://labrigger.com/blog/)
   - [David Hoffman blog](https://david-hoffman.github.io/)
