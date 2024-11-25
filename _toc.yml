@@ -9,7 +9,6 @@ parts:
   - file: chapters/1-basics/overview
   - file: chapters/1-basics/optical-design
   - file: chapters/1-basics/light-sources
-  - file: chapters/1-basics/signal-control
   - file: chapters/1-basics/hardware-design
   - file: chapters/1-basics/how-to-ask-for-help
 
@@ -25,9 +24,15 @@ parts:
   - file: chapters/3-experiment/microscopy-experiments
   - file: chapters/3-experiment/sample-experiments
 
+- caption: Controlling and synchronizing devices
+  chapters:
+    - file: chapters/4-control/signal-control
+    - file: chapters/4-control/ascii-commands
+    - file: chapters/4-control/signal-generation
+
 - caption: Data management and analysis
   chapters:
-  - file: chapters/4-data/types-of-data
-  - file: chapters/4-data/data-storage
-  - file: chapters/4-data/image-presentation
-  - file: chapters/4-data/data-analysis
+  - file: chapters/5-data/types-of-data
+  - file: chapters/5-data/data-storage
+  - file: chapters/5-data/image-presentation
+  - file: chapters/5-data/data-analysis
