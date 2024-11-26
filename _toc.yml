@@ -29,6 +29,7 @@ parts:
     - file: chapters/4-control/signal-control
     - file: chapters/4-control/ascii-commands
     - file: chapters/4-control/signal-generation
+    - file: chapters/4-control/signal-action-delay
 
 - caption: Data management and analysis
   chapters:
