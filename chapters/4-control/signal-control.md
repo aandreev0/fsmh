@@ -35,3 +35,6 @@ When using amplitude modulation to drive devices, one has to remember that:
 
 1. the input signal might not be linearly correlated with output values (e.g. LED brightness is non-linear function of input voltage)
 1. the [non-linear behavior of system can make response slower or shifted in time](signal-action-delay.md)
+1. Analog signals are produced by Digital-to-Analog converters (ADC) that have specific amplitude resolution (it can't output any arbitrary voltage only one number of 1024 for 10-bit or 65536 for 16-bit resolution)
+
+It is useful to also remember that devices often output driving signal as a feedback. For example, you can send trigger signal to camera and readout exposure signal that provides timing of when actual image was taken. Piezo might output signal corresponding to physical position of stage (readout by a separate sensor on the device). It might be useful to examine what device is actually doing compared what you tell it to do.
