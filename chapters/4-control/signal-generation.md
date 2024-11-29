@@ -11,8 +11,9 @@
 # Implementation with Arduino
 
 ## Creating simple logic with Arduino
-- when X, do Y
+
 - counting frames
+- when X, do Y
 - driving LEDs
 
 ## Advanced details
@@ -34,3 +35,12 @@ You can buy 30MHz two-channel function generator for \$300, while multi-function
 Using two- or four-channel generators allows synchronization of signals and phase offset, e.g. if you want one signals to be precisely 0.15ms ahead of another signal.
 
 # Sensors: temperature, humidity, flow
+
+When running experiments we often need to record additional information such as temperature, light level, or humidity. Some external devices offer logging capabilities, but it might be also useful to construct custom device to record such data directly from the sensor. For example, [Arduino can be used](https://www.biorxiv.org/content/10.1101/2021.05.18.444705v1) to log (as well as control) temperature.
+
+In such case the simple setup looks like this:
+1. sensor reports data to Arduino, for example digital [DS18b20 sensor](https://www.adafruit.com/product/381) can report temperature through "1-wire" protocol
+1. Arduino sends the data via serial port to python script running on PC
+1. script writes the data in text file appending timestamp information
+
+Off-the-self devices such as [Thorlabs USB temperature logger](https://www.thorlabs.com/thorproduct.cfm?partnumber=TSP01) provide similar capability without any tinkering but at ~3x price
