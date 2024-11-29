@@ -18,6 +18,10 @@ The GFP protein is circularly permuted (cpGFP) and its ends are fused to calcium
 
 ## Fluorescence recovery after photobleaching (FRAP)
 
+Fluorescent molecules can relax from excited state through several mechanisms. Some of these mechanisms such as fluorescence allow for the molecule to return to "default" ground state to be excited again. Other possible states, such as triplet allow for chemical reaction to occur that permanently renders molecule non-fluorescent thus causing "bleaching".
+
+FRAP experiments allow tracking of molecular movement in part of tissue by first purposefully bleaching most of the present molecules and then following increase (recovery) of signal due to mobile molecules coming in.
+
 ## Blinking
 
 ## Polarization
