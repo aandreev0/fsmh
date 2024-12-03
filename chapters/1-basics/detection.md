@@ -35,3 +35,7 @@ When signal is low we might want to perform averaging of measurement to improve 
 Apart from decrease in spatial/temporal resolution, such averaging carries another drawbacks. For example, electronic binning will [not decrease readout noise](https://www.teledynevisionsolutions.com/learn/learning-center/imaging-fundamentals/binning/) as binning happens after pixels were digitized. [Longer exposure](https://www.teledynevisionsolutions.com/learn/learning-center/scientific-imaging/thermal-control-for-long-exposure-imaging/) can lead to accumulation of thermal noise.
 
 ## Power / light flux meters
+
+Power meters are devices that convert light hitting the sensor into electrical signal. Some power meters detect change in sensor temperature, others directly convert photons into electrons using photodiodes.
+
+**Power meters are not spectrometers**. They are calibrated for a wide range of wavelengths but ultimately don't "know" about wavelength of the incoming light &mdash; only about the photons hitting sensor. 
