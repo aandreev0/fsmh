@@ -38,4 +38,6 @@ Apart from decrease in spatial/temporal resolution, such averaging carries anoth
 
 Power meters are devices that convert light hitting the sensor into electrical signal. Some power meters detect change in sensor temperature, others directly convert photons into electrons using photodiodes. Room (ambient) light and temperature fluctuations affect reading of power meters.
 
+It is important to measure light power to ensure that excitation light will not damage sensor devices (cameras) or biological tissues, and to report it as part of methods. Decrease in light power over time can mean degradation of light source or change in optical alignment. Power meters usually report "average power" while light-induced damage happens due to high peak power or high pulse energy. Here is [nice documentation from Thorlabs](https://www.thorlabs.com/images/tabimages/Laser_Pulses_Power_Energy_Equations.pdf)
+
 **Power meters are not spectrometers**. They are calibrated for a wide range of wavelengths but ultimately don't "know" about wavelength of the incoming light &mdash; only about the photons hitting sensor. By changing wavelength in the power meter interface you cannot survey the spectral parameters of the incoming light, only change the scaling coefficients.
