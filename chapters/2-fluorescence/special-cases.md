@@ -24,6 +24,12 @@ FRAP experiments allow tracking of molecular movement in part of tissue by first
 
 ## Blinking
 
+Another case of non-fluorescent state causes blinking - that is recoverable loss of fluorescence. Blinking is caused by temporary molecular transition to non-fluorescent state followed by recovery to ground state.
+
+Recovery can happen on it's own (like in STORM, stochastic optical reconstruction microscopy) or caused by external light stimuli (PALM, photoactivated localization microscopy).
+
 ## Polarization
+
+
 
 ## Anisotropy
