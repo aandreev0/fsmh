@@ -36,6 +36,6 @@ Apart from decrease in spatial/temporal resolution, such averaging carries anoth
 
 ## Power / light flux meters
 
-Power meters are devices that convert light hitting the sensor into electrical signal. Some power meters detect change in sensor temperature, others directly convert photons into electrons using photodiodes.
+Power meters are devices that convert light hitting the sensor into electrical signal. Some power meters detect change in sensor temperature, others directly convert photons into electrons using photodiodes. Room (ambient) light and temperature fluctuations affect reading of power meters.
 
-**Power meters are not spectrometers**. They are calibrated for a wide range of wavelengths but ultimately don't "know" about wavelength of the incoming light &mdash; only about the photons hitting sensor. 
+**Power meters are not spectrometers**. They are calibrated for a wide range of wavelengths but ultimately don't "know" about wavelength of the incoming light &mdash; only about the photons hitting sensor. By changing wavelength in the power meter interface you cannot survey the spectral parameters of the incoming light, only change the scaling coefficients.
