@@ -30,17 +30,17 @@ More advanced technology for generating fast, predictable signals with option fo
 
 Function generators are specialized devices that can output high-quality signals with high sampling frequency but only specific waveform. While DAQ device can produce any arbitrary shape of signal, e.g. squared sine wave multiplied by triangle wave of different frequency, function generators offer limited variety of output functions. As commonly happens, the tradeoff is speed vs customization.
 
-[Here author](https://arxiv.org/abs/1211.0578) is using 2-ch function generator to drive piezo (sine wave) and strobing LED (square pulses) with slightly different frequency to analyze resonant frequency of piezo actuator:
+You can buy 30MHz two-channel function generator for \$300, while multi-functional DAQ with 2 analog output channels and 2MHz sampling rate can cost more than \$2000.
+
+Using two- or four-channel generators allows synchronization of signals and phase offset, e.g. if you want one signals to be precisely 0.15ms ahead of another signal.
+
+For example, [here author](https://arxiv.org/abs/1211.0578) is using 2-ch function generator to drive piezo (sine wave) and strobing LED (square pulses) with slightly different frequency to analyze resonant frequency of piezo actuator:
 
 ```{figure} ../../static/two-channel-function-generator.png
 :alt: example output of a 2-ch function generator
 :width: 250px
 :align: center
 ```
-
-You can buy 30MHz two-channel function generator for \$300, while multi-functional DAQ with 2 analog output channels and 2MHz sampling rate can cost more than \$2000.
-
-Using two- or four-channel generators allows synchronization of signals and phase offset, e.g. if you want one signals to be precisely 0.15ms ahead of another signal.
 
 # Sensors: temperature, humidity, flow
 
