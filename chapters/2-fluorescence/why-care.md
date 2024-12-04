@@ -6,4 +6,12 @@ Fluorescence happens usually within visible range of wavelengths, 400-600nm.
 
 ## Specificity
 
+Fluorescent tags can be targeted to compartments, specific molecules, or respond to specific events within cells.
+
 ## Organic, inorganic, and in-between
+
+Dyes and Proteins
+
+Quantum dots
+
+Proteins 

@@ -1,18 +1,19 @@
 # Light sources
 
+Light generation and delivery to sample is foundational problem in microscopy. Light sources can be specified by few characteritics such as:
 
+- spectral content: which wavelengths are present in the light source? How wide is the spectrum?
+- frequency of modulation: is it a pulsed source or continous-wave?
+- control: can we electronically control amplitude or frequency of light?
+- is the light polarized?
+- is the light coherent? (in case of lasers)
+- is the light collimated when leaving the light source?
+- what is the shape of the light beam?
 
-## Laser principles
+## Laser sources
+
+Laser sources can provide coherent light with narrow (from 0.01nm for continuous-wave sources to >20nm for femtosecond pulsed laser) spectrum, well-defined polarization, high-quality beam shape, and stable frequency (in case of pulsed lasers). Multiple lasers with different wavelengths can be packaged [into a single device](https://www.coherent.com/lasers/laser-engine/galaxy), coupled into a single optical fiber for compact and efficient delivery to the imaging setup. Ideally, we want a device where amplitude of each laser output can be independently modulated.
 
 ## LEDs and lamps
 
-
-## Detection of light
-- digital nature of light detection, noise, and offsets
-- point detectors
-- 2D detectors (cameras)
-
-## Measuring power
-- average and peak power
-- photo damage
-- chemical toxicity
+For many applications we can use LED sources or lamps. Most of the wide-field fluorescence microscopes are using mercury lamps with spectrum that has multipel peaks
