@@ -21,11 +21,11 @@ If you need timing between repeated pulses to be better maintained than that, yo
 :align: center
 ```
 
-Galvo mirror steers laser beam following input electrical signal. However, the response (provided by sensor inside galvo) is not perfectly following the input signal. [Some microscopes](https://www.nature.com/articles/s41598-023-46245-2) are sensitive enough to that discrepancy and require correction. Such correction is done by adjusting parameters of PID controller that transforms input signal into voltage that drives mirror. Because galvo systems are assembled for the specific mirror, the PID parameteres are embedded in hardware using adjustable potentiometers on the control board.
+Galvo mirror steers laser beam following input electrical signal. However, the response (that can be detected by sensor inside galvo) is [not perfectly following](https://www.scanlab.de/en/service/glossary/nonlinearity) the input signal. [Some microscopes](https://www.nature.com/articles/s41598-023-46245-2) are sensitive enough to that discrepancy and require correction. Such correction is done by adjusting parameters of PID controller that transforms input signal into voltage that drives mirror. Because galvo systems are assembled for the specific mirror, the PID parameters are embedded in hardware using adjustable potentiometers on the control board.
 
 ## Hardware: piezo response
 
-Another example is piezo collar to move objective that is often used for 3D imaging (z-scanning). These devices are heavier and need to be able to move objectives of different weights, so calibration is more complicated (PID adjustment) and performed inside the device's software.
+Another example is piezo collar that is often used for 3D imaging (z-scanning) by moving the infinity-corrected detection objective. These devices are heavier and need to be able to move objectives of different weights, so calibration is more complicated (PID adjustment) and can be performed inside the device's software.
 
 ```{image} ../../static/piezo-collar-response.png
 :alt: piezo collar repsonse

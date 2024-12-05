@@ -29,11 +29,11 @@ Other examples of devices control by digital signals include shutters (1=open, 0
 
 ## Analog signals
 
-Analog signals are used when control variable is not binary. For example, we might want to control laser power, which can be any number between 0% and 100%. In such cases devices are driven by modulation signal, which can be defined as voltage between 0V and 5V, however many devices are driven by 0...2V or even -10V...10V signal range. It depends on specification. Another example of analog control signals are position of stage (e.g. piezo collar), LED light intensity, galvo mirror angle
+Analog signals are used when control variable is not binary. For example, we might want to control laser power, which can be any number between 0% and 100%. In such cases devices are driven by modulation signal, which can be defined as voltage between 0V and 5V, however some devices are driven by 0...2V or even -10V...10V signal range - always check the specification. Apart from laser power, another examples of analog control signals are position of stage (e.g. piezo collar), LED light intensity, galvo mirror angle
 
 When using amplitude modulation to drive devices, one has to remember that:
 
-1. the input signal might not be linearly correlated with output values (e.g. LED brightness is non-linear function of input voltage)
+1. the input signal might not be linearly correlated with output values (e.g. LED brightness is non-linear function of input voltage; )
 1. the [non-linear behavior of system can make response slower or shifted in time](signal-action-delay.md)
 1. Analog signals are produced by Digital-to-Analog converters (ADC) that have specific amplitude resolution (it can't output any arbitrary voltage only one number of 1024 for 10-bit or 65536 for 16-bit resolution)
 
