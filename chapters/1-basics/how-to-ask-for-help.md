@@ -28,6 +28,7 @@ Apart from community support (online forums or blogs) you can get a lot of infor
 - [Chroma knowledge center](https://www.chroma.com/support/knowledge-center)
 - [Newport resources](https://www.newport.com/resources)
 - [Learn @ DigiKey](https://www.digikey.com/en/maker/resources/stem-diy/learn-at-digi-key)
+- [RP-photonics](https://www.rp-photonics.com/company.html)
 - Personal & company blogs:
   - [LabRigger](https://labrigger.com/blog/)
   - [David Hoffman blog](https://david-hoffman.github.io/)

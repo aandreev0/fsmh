@@ -18,6 +18,7 @@ parts:
   - file: chapters/2-fluorescence/why-care
   - file: chapters/2-fluorescence/molecules
   - file: chapters/2-fluorescence/proteins
+  - file: chapters/2-fluorescence/filters-and-spectra
   - file: chapters/2-fluorescence/special-cases
 
 - caption: Designing experiments
