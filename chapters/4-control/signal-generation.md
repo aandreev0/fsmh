@@ -18,6 +18,30 @@
 
 ## Advanced details
 - Interrupts
+
+There are two main ways to detect incoming signal: continuous polling of the pin and using interrupts.
+
+```C
+// using polling:
+void loop(void){
+  if(digitalRead(pin) == HIGH){
+    // do stuff
+  }
+}
+
+// using interrupts:
+void setup(void){
+  pinMode(interruptPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(interruptPin), isr, RISING)
+}
+
+void isr() {
+  // do stuff
+}
+
+
+```
+
 - Digital-to-analog converters
 - Real-time data processing
 - Serial port communications

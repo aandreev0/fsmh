@@ -1,4 +1,4 @@
-# Detecting optical signals
+# Detecting and measuring light
 
 Light detectors converting incoming photons into electrical signals that can be digitized to produce images.
 
