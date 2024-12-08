@@ -14,7 +14,7 @@ PSF represents a three-dimensional image of a point source and contains informat
 :align: center
 ```
 
-*Image taken from (UT Advanced Microscopy core](https://advanced-microscopy.utah.edu/education/super-res/)*
+*Image taken from [UT Advanced Microscopy core](https://advanced-microscopy.utah.edu/education/super-res/)*
 
 In super-resolution microscopy such as PALM/STORM/MINFLUX resolution is defined through statistical accumulation of estimated positions of point sources, not from single image. Use of deconvolution can mathematically increase resolution even though the optical system and corresponding PSF stay unchanged.
 
