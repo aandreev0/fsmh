@@ -16,15 +16,18 @@ As an exercise, you can practice by assembling a point-scanning two-photon laser
 :align: center
 ```
 
-It consists of few major parts: collimated laser source of desired diameter. 
+It consists of few major parts: collimated laser source of desired diameter; pair of galvo mirrors that steer beam; 4f system of scan lens and tube lens that relay light to the objective; dichroic element that allows excitation light to pass and reflects fluorescence into the single-pixel detection device (PMT). All distances can be set in CAD software, conflicts checked, and final assembly verified.
 
 ## Making custom parts
 - 3D Printing
 - CNC
+- Laser cutting
 - Getting your parts manufactured
-- laser cutting
 
 ## Examples of projects
+
+- box for arduino-based device
+- 
 
 ### Sample holders
 

@@ -1,6 +1,6 @@
 # Detecting light
 
-Light detectors converting incoming photons into electrical signals that can be digitized to produce images.
+Light detectors convert incoming photons into electrical signals that can be digitized to produce images.
 
 It is important to understand few characteristics of the digitized signal.
 
