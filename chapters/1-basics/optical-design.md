@@ -18,6 +18,10 @@ PSF represents a three-dimensional image of a point source and contains informat
 
 In super-resolution microscopy such as PALM/STORM/MINFLUX resolution is defined through statistical accumulation of estimated positions of point sources, not from single image. Use of deconvolution can mathematically increase resolution even though the optical system and corresponding PSF stay unchanged.
 
+According to [Niquist criterion](https://en.wikipedia.org/wiki/Nyquist_frequency) to truthfully reconstruct PSF we need to sample it with at least twice the spatial frequency. If optical resolution (from PSF estimation) is expected to be 0.5µm, then we need to have data collection resolution 0.25µm (or finer) using scanning or camera-based detection.
+
+Optical resolution necessary for particular experiment depends on the size of features we are interested in. As discussed in [](../3-experiment/microscopy-experiments.md), lateral size and spacing between objects (molecules, cells, or regions of interest) is important to consider when designing experiment.
+
 ## Aberrations and real optics
 
 We need to remember several common types of aberrations:
@@ -28,3 +32,10 @@ We need to remember several common types of aberrations:
 Some of these aberrations can be corrected by lens design, for example [achromatic doublets](https://en.wikipedia.org/wiki/Achromatic_lens) can correct spherical and chromatic aberrations. Apart from price, these lenses can have higher reflection and absorption than comparable spherical singlets. Aspherical lenses are another alternative at even higher price and more limited
 
 ## How to make things move
+
+- kinematic mirror mount
+- Z stages
+- voice coils
+- linear actuators
+- piezo actuators
+- digital micromirror device (DMD)
