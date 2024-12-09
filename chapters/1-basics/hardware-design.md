@@ -43,7 +43,7 @@ Designing part and integrating it into existing setup is half of the battle. Sec
 
 Biologists come up with the most fun experiments for microscopy. Potential samples and geometries of imaging are truly endless. To successfully perform these experiments they need ways of mounting samples and positioning on a microscope.
 
-Custom sample holder then will bridge microscope (custom or commercial) with a sample that microscope is not supporting natively. For example, one of the most common microscopes is inverted or upright confocal, optimized for imaging slides or glass-bottom dishes with immobilized samples. However, by utilizing custom sample holders researchers can [image *in vivo* plant growth](https://elifesciences.org/articles/26792) or experiment with [stretchable films](https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an36001b) or perform [3D imaging by rotating sample](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.12263)
+Custom sample holder then will bridge microscope (custom or commercial) with a sample that microscope is not supporting natively. For example, one of the most common microscopes is inverted or upright confocal, optimized for imaging slides or glass-bottom dishes with immobilized samples. However, by utilizing custom sample holders researchers can [image *in vivo* plant growth](https://elifesciences.org/articles/26792) or experiment with [stretchable films](https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an36001b) or perform [3D imaging by rotating sample](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.12263). Light-sheet microscopes require [special holders due to imaging geometry](https://www.janelia.org/open-science/zeiss-lightsheet-z1-sample-holder).
 
 ### Optical adapters
 
