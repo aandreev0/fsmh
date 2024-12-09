@@ -51,4 +51,4 @@ Apart from community support (online forums or blogs) you can get a lot of infor
 ## Offline resources
 
 - [Principles of Fluorescence Spectroscopy](https://link.springer.com/book/10.1007/978-0-387-46312-4)
--
+- [Zeiss Microscopy for Dummies](https://www.zeiss.com/microscopy/us/c/edr/21/microscopy-for-dummies-ebook.html)
