@@ -25,8 +25,6 @@ We need to remember several common types of aberrations:
 - chromatic: difference in light path of different wavelength due to dispersion
 - refraction within sample: due to non-homogeneity of refractive index of the sample (e.g. lipids vs proteins in the sample)
 
-Some of these aberrations can be corrected by lens design, for example [achromatic doublets](https://en.wikipedia.org/wiki/Achromatic_lens) can correct spherical and chromatic aberrations. Apart from price, these lenses can have higher reflection and absorption than comparable spherical singlets. Aspherical lenses are another alternative at even higher price and more limited 
-
-## Real optics
+Some of these aberrations can be corrected by lens design, for example [achromatic doublets](https://en.wikipedia.org/wiki/Achromatic_lens) can correct spherical and chromatic aberrations. Apart from price, these lenses can have higher reflection and absorption than comparable spherical singlets. Aspherical lenses are another alternative at even higher price and more limited
 
 ## How to make things move

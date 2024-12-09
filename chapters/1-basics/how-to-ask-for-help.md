@@ -8,14 +8,15 @@ Nobody knows everything and sharing within microscopy community is part of cultu
 
 Apart from community support (online forums or blogs) you can get a lot of information from studying knowledge bases supported by companies. These resources often provide clear information, discuss limitations, and often offer particular off-the-shelf solutions. Importantly, the list below doesn't include any marketing materials.
 
-## Online communities
+## Online communities:
 
 - [Twitter list](https://twitter.com/i/lists/1266007529277947904)
 - [Bluesky community](https://bsky.app/profile/mickeykats.bsky.social/feed/aaaaxyliorir6)
 - [Microlist](https://forum.microlist.org/)
 - [2P microscopy community](https://2p.ece.ucsb.edu/login)
+- [Adaptive Optics for microscopy](https://aomicroscopy.org/)
 
-## Resources
+## Knowledge bases:
 
 - [Thorlabs knowledge base](https://www.thorlabs.com/navigation.cfm?guide_id=2400)
 - [Edmund optics knowledge base](https://www.edmundoptics.com/knowledge-center/)
@@ -29,21 +30,22 @@ Apart from community support (online forums or blogs) you can get a lot of infor
 - [Newport resources](https://www.newport.com/resources)
 - [Learn @ DigiKey](https://www.digikey.com/en/maker/resources/stem-diy/learn-at-digi-key)
 - [RP-photonics](https://www.rp-photonics.com/company.html)
-- Personal & company blogs:
-  - [LabRigger](https://labrigger.com/blog/)
-  - [David Hoffman blog](https://david-hoffman.github.io/)
-  - [Kurt's microscopy blog](https://ucsf.app.box.com/v/KurtsMicroscopyBlog) (archived as PDF)
-  - [Zipfel lab](http://www.drbio.cornell.edu/app_notes.html)
-  - [Parker lab](https://parkerlab.bio.uci.edu/microscopy_construction.htm)
-  - [Pulsar blog](https://www.thepulsar.be/archives/)
-  - [3-photon knowldge base](https://www.3photon.org/)
-  - [Nico Struuman's notes](https://valelab4.ucsf.edu/~nstuurman/)
-  - [Green Fluorescent blog](https://greenfluorescentblog.wordpress.com/)
-  - [Adaptive optics blog](https://aomicroscopy.org/)
-  - [Ulrike Boehm's blog](http://ulrikeboehm.org/blog/)
-  - [Austin Blanco's blog](https://www.austinblanco.com/blog/) (also sells Triggerscope and other devices)
-  - [Everyday scientist blog](https://blog.everydayscientist.com/)
-  - [Kyle M. Douglass blog](https://kylemdouglass.com/2024/)
+
+## Personal & company blogs:
+- [LabRigger](https://labrigger.com/blog/)
+- [David Hoffman blog](https://david-hoffman.github.io/)
+- [Kurt's microscopy blog](https://ucsf.app.box.com/v/KurtsMicroscopyBlog) (archived as PDF)
+- [Zipfel lab](http://www.drbio.cornell.edu/app_notes.html)
+- [Parker lab](https://parkerlab.bio.uci.edu/microscopy_construction.htm)
+- [Pulsar blog](https://www.thepulsar.be/archives/)
+- [3-photon knowldge base](https://www.3photon.org/)
+- [Nico Struuman's notes](https://valelab4.ucsf.edu/~nstuurman/)
+- [Green Fluorescent blog](https://greenfluorescentblog.wordpress.com/)
+- [Adaptive optics blog](https://aomicroscopy.org/)
+- [Ulrike Boehm's blog](http://ulrikeboehm.org/blog/)
+- [Austin Blanco's blog](https://www.austinblanco.com/blog/) (also sells Triggerscope and other devices)
+- [Everyday scientist blog](https://blog.everydayscientist.com/)
+- [Kyle M. Douglass blog](https://kylemdouglass.com/2024/)
 
 
 ## Offline resources
