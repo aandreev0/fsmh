@@ -25,6 +25,7 @@ parts:
   chapters:
   - file: chapters/3-experiment/microscopy-experiments
   - file: chapters/3-experiment/sample-experiments
+  - file: chapters/3-experiment/super-resolution
 
 - caption: Controlling and synchronizing devices
   chapters:

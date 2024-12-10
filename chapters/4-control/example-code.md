@@ -8,7 +8,51 @@
 
 **TTL pulse every 1 second**
 
-**TTL pulse every 1 second**
+```C
+int outputPin = 0; // use digital pin 0 for output
+void setup() {
+  Serial.begin(115200);
+  pinMode(outputPin, OUTPUT);
+  digitalWrite(outputPin, LOW);
+}
+
+void loop() {
+  digitalWrite(outputPin, HIGH);
+  delay(1); // sleep 1ms
+  digitalWrite(outputPin, LOW);
+  delay(999); // sleep 999 ms
+}
+
+```
+
+**TTL pulse every 10 input triggers (50% duty cycle at 10ms interval)**
+
+```C
+int outputPin = 0; // use digital pin 0 for output
+int inputPin = 1;
+int volatile counter = 0;
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(outputPin, OUTPUT);
+  digitalWrite(outputPin, LOW);
+  pinMode(inputPin, OUTPUT);
+
+}
+
+void loop() {
+  if(digitalRead(inputPin) == HIGH){
+    counter++;
+    if (counter >= 10){
+      digitalWrite(outputPin, HIGH);
+      counter = 0;
+    }
+    delay(7); // wait till trigger goes low
+  }
+  delay(1);
+}
+
+```
 
 **Triangle wave using [Digital-to-analog Converter](https://docs.arduino.cc/tutorials/uno-r4-minima/dac/) (DAC) on UNO R4**
 

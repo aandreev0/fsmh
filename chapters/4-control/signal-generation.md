@@ -13,6 +13,9 @@
 ## Creating simple logic with Arduino
 
 - counting frames
+
+If you want to provide stimuli at specific interval or specific frames of the acquisition, you can either pre-program serier of triggers to camera and stimuli apparatus; or you can count frames (using Exposure signal from camera) and perform stimulation trigger at specific counts, e.g. every 100 frames. This can be implemented using simple Arduino code for almost any imaging system that provides Exposure signal ([camera-based](https://www.vision-doctor.com/en/camera-technology-basics/trigger-functions.html) and point-scanning system as well, see example from [ScanImage software](https://docs.scanimage.org/Concepts/Volume+Imaging.html))
+
 - when X, do Y
 - driving LEDs
 
@@ -66,7 +69,7 @@ For example, [here author](https://arxiv.org/abs/1211.0578) is using 2-ch functi
 :align: center
 ```
 
-# Sensors: temperature, humidity, flow
+# Sensors: temperature, humidity, flow, light
 
 When running experiments we often need to record additional information such as temperature, light level, or humidity. Some external devices offer logging capabilities, but it might be also useful to construct custom device to record such data directly from the sensor. For example, [Arduino can be used](https://www.biorxiv.org/content/10.1101/2021.05.18.444705v1) to log (as well as control) temperature.
 
