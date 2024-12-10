@@ -17,6 +17,9 @@
 If you want to provide stimuli at specific interval or specific frames of the acquisition, you can either pre-program serier of triggers to camera and stimuli apparatus; or you can count frames (using Exposure signal from camera) and perform stimulation trigger at specific counts, e.g. every 100 frames. This can be implemented using simple Arduino code for almost any imaging system that provides Exposure signal ([camera-based](https://www.vision-doctor.com/en/camera-technology-basics/trigger-functions.html) and point-scanning system as well, see example from [ScanImage software](https://docs.scanimage.org/Concepts/Volume+Imaging.html))
 
 - when X, do Y
+
+Continuous monitoring of input signal allows triggering at precise moments in time. One example is detecting when signal crosses level for frame acquisition, such as piezo position above certain level if we want to acquire image only at a specific height of the objective.
+
 - driving LEDs
 
 ## Advanced details
@@ -42,12 +45,41 @@ void isr() {
   // do stuff
 }
 
-
 ```
 
 - Digital-to-analog converters
+
+Many Arduino devices come with Analog-to-digital converters on-board that allow reading analog values from pin, but not digital-to-analog converters that allow generating arbitrary continuous signals, e.g. for setting LED brightness or moving stages or galvos. DAC devices are separate cards that communicate with Arduino code via specific protocols. Another use for DAC is offset and scaling, for example when we want to translate one signal into another while performing simple (or not) arithmetics. In light sheet microscopy we often want to synchronize position of galvos (that define position of light sheet) with position of piezo collar (that defines position of objective and focal plane). However, the signals are often not compatible directly, e.g.
+
+``galvo_voltage = (piezo_voltage + offset)*factor``
+
+One can use [integrated scaling amplifier](https://www.thinksrs.com/products/sim983.html) to do that math, or employ DAQ (such as Arduino code).
+
+```C
+int outputVal = 0;
+int inputVal = 0;
+int inputPin = A0;
+
+// these factors will relay input voltage to output voltage without modification
+
+float offset = 0;
+float scale = 4095/1023;
+
+void loop(){
+  inputVal = analogRead(inputPin); // can be 0-1023 that corresponds to 0-5V
+  outputVal = (inputVal - offset) * scale;
+  dac.setVoltage(outputVal, false); // can be 0-4095 that corresponds to 0-5V
+}
+
+```
+
 - Real-time data processing
+
+As discussed in the [](../4-control/signal-action-delay.md) section, devices don't perfectly replicate control signals. Similarly, microcontrollers, DAQs, and computers don't output perfect signals with perfect timing. We call these non-real-time systems, meaning that processing power can be taken over by different process. This causes jitter in timing of signals, or even missed signals all together. Arduino controller is close to real-time device when we are interested in <1kHz signals. Computers (PCs) are generally not real-time because operating system can be "taken over" by different process.
+
 - Serial port communications
+
+Arduino digital pins can be used for fast communication using binary signals: LED can be either on or off; camera exposure can happen or not. Serial communication using [ASCII commands](./ascii-commands.md) allows for easier control of parameters or passing of messages between Arduino and PC or between Arduino and other devices supporting serial communication. One problem we had to solve is playback of sounds from PC every 100 frames. To solve that we were using frame counting (discussed above) and send serial command to PC program that was listening to Arduino communications. Then PC program (written in Python) would output specific sound through on-board speaker. Using this approach we avoided integrating hardware for sound playback directly into Arduino.
 
 # DAQ (NI DAQs)
 
