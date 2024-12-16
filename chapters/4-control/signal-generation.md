@@ -81,6 +81,10 @@ As discussed in the [](../4-control/signal-action-delay.md) section, devices don
 
 Arduino digital pins can be used for fast communication using binary signals: LED can be either on or off; camera exposure can happen or not. Serial communication using [ASCII commands](./ascii-commands.md) allows for easier control of parameters or passing of messages between Arduino and PC or between Arduino and other devices supporting serial communication. One problem we had to solve is playback of sounds from PC every 100 frames. To solve that we were using frame counting (discussed above) and send serial command to PC program that was listening to Arduino communications. Then PC program (written in Python) would output specific sound through on-board speaker. Using this approach we avoided integrating hardware for sound playback directly into Arduino.
 
+- Interfacing with PC by emulating keyboard
+
+When creating user-facing controls for custom hardware, we often need to create physical buttons that control software running on PC. For example, buttons to move Z stage, joystick to move XY stage, buttons to perform acquisition Software often has API that can be used to integrate external device. Micro-Manager microscope control software allows users to write plugins that can be connected with external Arduino device via serial commands. However, sometimes it is easier to program external device as a keyboard to execute hotkey commands on demand. For example, see how [Arduino can be wired to perform arbitrary hotkey command when a certain pushbutton is pressed](https://www.instructables.com/Arduino-Programmable-Button-Panel-As-Keyboard/).
+
 # DAQ (NI DAQs)
 
 More advanced technology for generating fast, predictable signals with option for feedback loops is using Data Acquisition (DAQ) platform such as National Instrument devices (currently "gold standard") or very similar Advantech iDAQ (at lower price point). Here we discuss several specific example of using DAQ for driving microscope operations.

@@ -39,6 +39,8 @@ Compare that code to similar analysis in Excel:
 :align: center
 ```
 
+Using scripting allows rapid processing of large datasets from multiple individual experiments stored as individual files. This way users can modify parameters of analysis and quickly re-process the whole datasets or perform re-rendering with new style of graphics.
+
 ## Automatic processing
 
-When we move data processing to realm of software we can start integrating automatic and on-the-fly analysis. Common image acquisition platforms such as Micro-Manager and Napari provide tooling for live data analysis. For example, see [this demo](https://x.com/haesleinhuepf/status/1393195684367568903). Example processing can include FLIM analysis, denoising / deconvolution, on-the-fly frequency analysis, tracking, and more
+When we move data processing to realm of software we can start integrating automatic and on-the-fly analysis. Common image acquisition platforms such as Micro-Manager and Napari provide tooling for live data analysis. For example, see [this demo](https://x.com/haesleinhuepf/status/1393195684367568903). Example processing can include FLIM analysis, denoising / deconvolution, on-the-fly frequency analysis, tracking, and more.
