@@ -16,4 +16,4 @@ When designing imaging experiment we aim to achieve several outcomes:
  :align: center
  ```
 
-The main point that's important to remember: excitation and emission spectra of fluorophores are extremely wide. Nearly every organic molecule can be excited by 405nm laser (at different efficiency of course).
+It is important to remember: excitation and emission spectra of fluorophores can be extremely wide. Nearly every organic molecule can be excited by 405nm laser (at different efficiency of course). Same way some light sources (LEDs) have very wide spectrum and will "leak" through the filters. Things are exacerbated by the fact that dichroic filters are designed for 0 degree angle of incidence (AOI) and [have different transmission of light at other angles](https://alluxa.com/optical-filter-specs/angle-of-incidence-aoi-and-polarization/). Similarly, transmission depends on light polarization (random in LEDs, linear in lasers).

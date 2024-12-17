@@ -14,7 +14,7 @@ It is important to understand few characteristics of the digitized signal.
 
 ## Single-pixel detectors
 
-Laser-scanning microscopy (confocal, two-photon, near-field super-resolution and other types) relies on point detectors for high sensitivity and low-noise detection. Commonly we use PMT and GaAsP detectors and move the sample or position of illuminated point to achieve 2D imaging.
+Laser-scanning microscopy (confocal, two-photon, near-field super-resolution and other types) relies on point detectors for high sensitivity and low-noise detection. Commonly we use PMT and GaAsP detectors and move the sample or position of illuminated point to achieve 2D imaging. PMT detectors work either in photon-counting mode or photon frequency mode, and your applications will require specific type. You can read more about PMT types from [Hamamatsu](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/etd/PMT_handbook_v4E.pdf)
 
 ## Camera-based sensors
 
