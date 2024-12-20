@@ -24,6 +24,7 @@ Apart from community support (online forums or blogs) you can get a lot of infor
 - [Olympus knowledge base](https://www.olympus-lifescience.com/en/microscope-resource/) also stand-alone like [Olympus confocal](http://www.olympusconfocal.com/)
 - [Leica science lab](https://www.leica-microsystems.com/science-lab/science-lab-home/)
 - [Zeiss campus](https://zeiss-campus.magnet.fsu.edu/index.html)
+- [Optical microscopy primer](https://micro.magnet.fsu.edu/primer/index.html)
 - [Nikon MicroscopyU](https://www.microscopyu.com/)
 - [Scientifica knowledge base](https://www.scientifica.uk.com/learning-zone/)
 - [Chroma knowledge center](https://www.chroma.com/support/knowledge-center)
@@ -46,6 +47,7 @@ Apart from community support (online forums or blogs) you can get a lot of infor
 - [Austin Blanco's blog](https://www.austinblanco.com/blog/) (also sells Triggerscope and other devices)
 - [Everyday scientist blog](https://blog.everydayscientist.com/)
 - [Kyle M. Douglass blog](https://kylemdouglass.com/2024/)
+- [Andrew York blog](https://andrewgyork.github.io/)
 
 ## Offline resources
 

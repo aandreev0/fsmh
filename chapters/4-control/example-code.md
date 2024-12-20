@@ -2,7 +2,53 @@
 
 ## Python and NI DAQ
 
+```Python
+# generated using chatgpt `generate sample code that make NI DAQ generate sawtooth wave using python`
 
+import nidaqmx
+from nidaqmx.constants import WaveformType
+import numpy as np
+
+# Parameters
+device_name = "Dev1"  # Replace with your device name
+ao_channel = f"{device_name}/ao0"  # Analog output channel
+rate = 1000  # Sample rate (samples per second)
+duration = 2  # Duration of the signal in seconds
+frequency = 2  # Frequency of the sawtooth wave in Hz
+amplitude = 5  # Peak-to-peak amplitude in volts
+offset = 0  # DC offset in volts
+
+# Calculate the total number of samples
+num_samples = int(rate * duration)
+
+# Generate the sawtooth waveform data
+t = np.linspace(0, duration, num_samples, endpoint=False)  # Time vector
+sawtooth_wave = amplitude * (t * frequency - np.floor(t * frequency)) + offset
+
+# Create a task to output the waveform
+with nidaqmx.Task() as task:
+    # Add an analog output channel
+    task.ao_channels.add_ao_voltage_chan(ao_channel, min_val=-10.0, max_val=10.0)
+
+    # Configure the timing for continuous waveform generation
+    task.timing.cfg_samp_clk_timing(rate, sample_mode=nidaqmx.constants.AcquisitionType.CONTINUOUS)
+
+    # Write the waveform to the buffer
+    task.out_stream.write_regen_mode = nidaqmx.constants.RegenerationMode.ALLOW_REGENERATION
+    task.write(sawtooth_wave, auto_start=False)
+
+    # Start the task
+    print(f"Generating sawtooth wave on {ao_channel}. Press Ctrl+C to stop.")
+    task.start()
+
+    # Keep the script running until interrupted
+    try:
+        while True:
+            pass
+    except KeyboardInterrupt:
+        print("\nStopping waveform generation.")
+
+```
 
 ## Arduino
 
