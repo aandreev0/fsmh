@@ -15,9 +15,7 @@ That simple question requires specificity and microscopy professionals will appr
 
 For each specific type of experiment we might ask more questions. For example for optogenetics and calcium imaging experiments we have come up with example questions [here](https://focalplane.biologists.com/2021/04/12/a-biologists-checklist-for-calcium-imaging-and-optogenetic-analysis/)
 
-## What are you trying to see?
-
-
+Finally, experimental design should also include [strategy for data analysis](../4-data/design-analysis.md).
 
 ## Picking the right technique
 

@@ -21,7 +21,11 @@ All elements of imaging systems can change with time due to various reasons:
 - drift in hardware: vibrations, metal/glass expansion due to [temperature changes](https://x.com/JLazzariDean/status/1567680867002363905), [HVAC performance](http://dx.doi.org/10.7517/issn.1674-0475.180303)
 - drift in *wetware*: old reagents,  
 
-## Difference in issues between Custom and Commercial system
+## Custom and Commercial system have different issues
+
+Custom setups are more affected by changes in hardware alignment or updates that break existing experiments. With custom setups we have the opportunity to "quickly tweak" something or add a new feature - all these changes can potentially create issues with other experiments. The answer to that is documentation of any changes and "locking down" the geometry when data-gathering is happening. There should be a cut-off time after which no hardware changes are allowed so that data can be collected in uniform fashion.
+
+Commercial systems often have stable hardware configuration that is locked "under covers". Thus most of the issues require specialist's visit which can take weeks to schedule. Modern systems include options for remote digital adjustment of some settings, thus you might be able to get help sooner. To expedite the service, it is crucial to collect and share test data when asking for help: show the "test" baseline data and current results and explain why the current results are unsatisfactory. The problem might be simpler to solve than you thought originally.
 
 ## Tools for alignment and debugging
 
