@@ -29,10 +29,10 @@ Commercial systems often have stable hardware configuration that is locked "unde
 
 ## Tools for alignment and debugging
 
-- sample reference images "This is how it supposed to look". It is important to regularly make and store reference images of the data from various relevant sample that might include experimental samples, images of fluorescent beads, or fluorescent fluid. Photographs of the setup, especially cables connecting devices together can serve as references for how the setup supposed to look. Finally, screenshots are the best way to store information about parameters and setting of the software components.
-- diaphragms & pinhole irises along the laser beam paths. Pinholes are important for microscope alignment to guide laser beam from source to objective. Don't rush removing these elements after alignment has been achieved, it is very useful to check drift or movement by re-guiding the beam.
-- shearing plate interferometer is used to make sure coherent light is collimated
-- indicator cards for IR light
+- sample reference images "This is how it supposed to look". It is important to regularly make and store reference images of the data from various relevant sample that might include experimental samples, images of fluorescent beads, or solutions of fluorescent dye. Photographs of the setup, especially cables connecting devices together can serve as references for how the setup supposed to look. Finally, screenshots are the best way to store information about parameters and setting of the software components.
+- pinholes and [iris diaphragm](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=206) along the laser beam paths. Pinholes are important for microscope alignment to guide laser beam from source to objective. Don't rush removing these elements after alignment has been achieved, it is very useful to check drift or movement by re-guiding the beam.
+- [shearing plate interferometer](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=2970) is used to make sure coherent light is collimated
+- [indicator cards for IR light](https://www.edmundoptics.com/p/laser-detection-card-ir/12140/)
 - Test samples for different parts of the microscope: fluorescent dye like FITC for illumination PSF (e.g. light-sheet or [2P-LSM](https://www.newport.com/mam/celum/celum_assets/Figure_297-Photonics_Handbook_800w.jpg)); fluorescent beads for characterizing detection PSF; sample fixed on slides or in [3D polymer gels](https://www.mypolymers.com/bio-133-enables-diverse-applications-in-fluorescence-microscopy-2/)
 
 ## Building microscope for easier alignment
