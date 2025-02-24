@@ -35,6 +35,7 @@ parts:
     - file: chapters/4-control/signal-generation
     - file: chapters/4-control/signal-action-delay
     - file: chapters/4-control/example-code
+    - file: chapters/4-control/micro-manager
 
 - caption: Data management and analysis
   chapters:

@@ -36,3 +36,5 @@ Commercial systems often have stable hardware configuration that is locked "unde
 - Test samples for different parts of the microscope: fluorescent dye like FITC for illumination PSF (e.g. light-sheet or [2P-LSM](https://www.newport.com/mam/celum/celum_assets/Figure_297-Photonics_Handbook_800w.jpg)); fluorescent beads for characterizing detection PSF; sample fixed on slides or in [3D polymer gels](https://www.mypolymers.com/bio-133-enables-diverse-applications-in-fluorescence-microscopy-2/)
 
 ## Building microscope for easier alignment
+
+CAD-based design helps with faster and more accurate assembly and with finding potential issues earlier. Other tools that help with building better microscope is use of cage systems for rough pre-alignment, centering elements on the tapped holes of the optical table, and having mirror pairs upstream of critical elements that require light being aligned along optical axis. Image planes (if there are several, e.g. 4f relay system) should be accessible for investigation. If the main light source is invisible light, consider adding a low-power visible light laser that can be used as a guide.
