@@ -35,9 +35,11 @@ Device Adapter is a "glue" that relays commands from Micro-Manager to the hardwa
 
 Native adapters for Micro-Manager are written in C++ and compiled against specific version of Micro-Manager. However, one can also create python-based device adapter using [pyDevice](https://github.com/micro-manager/mmCoreAndDevices/tree/main/DeviceAdapters/PyDevice) virtual device adapter.
 
-For example, we have created 4 adapters:
-- for linear stage (Pollux)
-- XY stage and piezo Z stage (Thorlabs)
+For example, we have created 5 adapters for following hardware:
+- linear stage (Pollux)
+- XY stage (Thorlabs)
+- piezo Z stage (Thorlabs)
 - filter wheel (Picard)
+- syringe pump (New Era Pumps)
 
 Code is to be released later.
