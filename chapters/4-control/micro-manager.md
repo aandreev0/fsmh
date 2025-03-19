@@ -4,7 +4,32 @@ Micro-Manager is a software program that helps control custom microscopes build 
 
 ## How Micro-Manager talks to devices?
 
-Micro-Manager doesn't work by moving any particular stage or any specific camera. It knows that "camera" can "take image with exposure X" or that stage can "move N microns". Device adapters translate these commands into device-specific language using device-specific API or serial communications.
+Micro-Manager doesn't work by moving any particular stage or any specific camera. It knows that "camera" can "take image with exposure X" or that stage can "move home". Device adapters translate these commands into device-specific language using device-specific API or serial communications:
+
+<table>
+  <tr>
+    <th>Real-world Action</th>
+    <th>Micro-Manager Function</th>
+    <th>Device Name</th>
+    <th>Device Function</th>
+  </tr>
+  <tr>
+    <td rowspan=3>Move stage to 0 (Home)</td>
+    <td rowspan=3> Stage::Home() </td>
+    <td> Pollux Stage</td>
+    <td> Serial command "1 ncal"</td>
+  </tr>
+  <tr>
+    <td>Thorlabs XY stage</td>
+    <td>channelX.Home(60000)<br>channelY.Home(60000)</td>
+  </tr>
+  <tr>
+    <td>Thorlabs Piezo</td>
+    <td>stage.SetZero()</td>
+  </tr>
+</table>
+
+Device Adapter is a "glue" that relays commands from Micro-Manager to the hardware components.
 
 ## Using pyDevice adapter
 
