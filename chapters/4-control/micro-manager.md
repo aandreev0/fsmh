@@ -6,7 +6,7 @@ Micro-Manager is a software program that helps control custom microscopes build 
 
 Micro-Manager doesn't work by moving any particular stage or any specific camera. It knows that "camera" can "take image with exposure X" or that stage can "move home". Device adapters translate these commands into device-specific language using device-specific API or serial communications:
 
-<table>
+<table style="width:100%">
   <tr>
     <th>Real-world Action</th>
     <th>Micro-Manager Function</th>
