@@ -33,6 +33,10 @@ We need to remember several common types of aberrations:
 
 Some of these aberrations can be corrected by lens design, for example [achromatic doublets](https://en.wikipedia.org/wiki/Achromatic_lens) can correct spherical and chromatic aberrations. Apart from price, these lenses can have higher reflection and absorption than comparable spherical singlets. Aspherical lenses are another alternative at even higher price and more limited
 
+## Designing and characterizing optical system
+
+If you can mathematically describe each element of the optical system you can perform design optimization and simulation to characterize expected performance. Foundational tool for that is [proprietary Zemax](https://www.ansys.com/products/optics/ansys-zemax-opticstudio) however some free tools are also available for example Python-based [Optiland](https://optiland.readthedocs.io/en/latest/learning_guide.html)
+
 ## How to make things move
 
 - kinematic mirror mount
