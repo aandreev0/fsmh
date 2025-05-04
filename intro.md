@@ -5,6 +5,8 @@ Full-stack microscopy provides practical review of design & implementation acros
 
 This handbook is designed to be a general reference to a wide range of topics, potentially missing a lot of details. Where possible, we provide specific references where you can learn more; in other cases we would recommend asking for assistance more knowledgeable colleagues both online and offline.
 
+**Contributions are welcome!** Submit an issue or fork the repository [on GitHub](https://github.com/aandreev0/fsmh), make changes, and submit pull request
+
 Built with [the Jupyter Book](https://jupyterbook.org) and Github Pages.
 
 Assembled by [Andrey Andreev](https://aandreev.net)
