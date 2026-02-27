@@ -17,6 +17,8 @@ In order to engage devices through such command interface, one has to:
  1. send command
  1. receive and interpret the response
 
+Serial interface can be be access using applications or custom scripts. For windows we have wonderful PuTTY. In a pinch you can use Arduino IDE since it has built-in serial terminal (for all platforms).
+
 Here an example Python code for working with [linear actuator from Newport](https://www.newport.com/f/linear-actuators-with-conex-controller):
 
 ```python
