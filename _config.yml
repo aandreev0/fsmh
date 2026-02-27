@@ -4,7 +4,7 @@
 title: Full-Stack Microscopy Handbook
 author: Andrey Andreev
 logo: logo.png
-copyright : "2025" # Copyright year to be placed in the footer
+copyright : "2026" # Copyright year to be placed in the footer
 
 exclude_patterns     : [_build, Thumbs.db, .DS_Store, "jupyter-book"]
 only_build_toc_files : true
