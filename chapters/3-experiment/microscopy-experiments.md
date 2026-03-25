@@ -49,3 +49,9 @@ To answer these questions we can perfectly reasonably employ microscopy (probabl
 Things getting even more complicated when using new imaging technique in a new experimental protocol. Then we have technical problems of our tool not being able to reliably perform given protocol. This should be tested and verified using mock experiment, where different (less valuable) biological tissues are used, or stimulation is consistently evoking response. Only then we can move to more relevant experiment.
 
 For example, as discussed earlier, we can start by using fixed samples, or fluorescent beads, or even targets to make sure the experiment can be performed. This way there is lower risk of messing up valuable biological experiment and wasting time.
+
+## Project management for experimental planning
+
+Another reason to select simpler more limited experiment before finalizing protocol for "real" experiment is that we can run more simple experiments in a single week. When debugging and optimizing imaging experiment it's necessary to have access to steady supply of relevant test samples, i.e. cells or animal samples. It is a very inefficient to try running experiment once a week, collect data and find issues, then have to wait another week. Ideally, you should prepare experimental plan where you can run "mock" experiment several times  a week, at least 2-3 days a week.
+
+Scheduling supply of biological samples and imaging time will require planning and communication across teams. Some engineers, especially in academic setting, might find it tedious and hard, but this is an essential part of developing new technique or protocol.

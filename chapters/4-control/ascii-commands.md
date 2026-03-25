@@ -9,15 +9,15 @@ present position.
 Linear stage has 2048 encoder pulses per mm, hence 2 mm 4096
 pulses (0x1000 in hexadecimal).
 
-You can design your own language of sending commands if you develop devices, specifically much more user-friendly. It all depends on implementation of the command processing.
+You can design your own language of sending commands if you develop devices, specifically much more user-friendly. It all depends on implementation of the command processing on the hardware side. Older technology didn't allow got a lot of memory so commands were as short as possible.
 
-In order to engage devices through such command interface, one has to:
+In order to engage devices through serial command interface, one has to:
  1. establish serial connection at proper baud rate
  1. usually initialize the device at a default state
  1. send command
  1. receive and interpret the response
 
-Serial interface can be be access using applications or custom scripts. For windows we have wonderful PuTTY. In a pinch you can use Arduino IDE since it has built-in serial terminal (for all platforms).
+Serial interface can be be accessed using applications or custom scripts. For windows we have wonderful PuTTY. In a pinch you can use Arduino IDE since it has built-in serial terminal for all platforms (i.e. both Win and Mac OS X).
 
 Here an example Python code for working with [linear actuator from Newport](https://www.newport.com/f/linear-actuators-with-conex-controller):
 
